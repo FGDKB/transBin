@@ -1,0 +1,2 @@
+[console_scripts]
+transBin = transBin.__main__:main
