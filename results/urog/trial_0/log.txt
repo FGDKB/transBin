@@ -1,15 +1,15 @@
-Starting transBin version 3.0.9
-	Date and time is 2024-12-20 08:19:15.040804
+Starting Vamb version 3.0.9
+	Date and time is 2024-12-15 13:33:35.463173
 
 Loading TNF
 	Minimum sequence length: 100
-	Loading data from FASTA file /home/neu/xcy/TransBin/data/urog/contigs.fna.gz
+	Loading data from FASTA file /home/neu/xcy/vamb/data/urog/contigs.fna.gz
 
 	Kept 1005479599 bases in 57762 sequences
-	Processed TNF in 32.25 seconds
+	Processed TNF in 43.91 seconds
 
 Loading RPKM
-	Loading RPKM from npz array /home/neu/xcy/TransBin/data/urog/abundance.npz
+	Loading RPKM from npz array /home/neu/xcy/vamb/data/urog/abundance.npz
 	Processed RPKM in 0.01 seconds
 
 Creating and training Transformer
@@ -26,200 +26,262 @@ Creating and training Transformer
 	N latent: 32
 
 	Training properties:
-	N epochs: 500
+	N epochs: 200
 	Starting batch size: 256
 	Learning rate: 0.001
 	N sequences: 57762
 	N samples: 9
 
-	Epoch: 1	Loss: 0.071312	SSE: 46.811248	KLD: 20.0952	Batchsize: 256
-	Epoch: 2	Loss: 0.064261	SSE: 41.919305	KLD: 20.5675	Batchsize: 256
-	Epoch: 3	Loss: 0.052346	SSE: 33.373259	KLD: 23.9610	Batchsize: 256
-	Epoch: 4	Loss: 0.051424	SSE: 32.450491	KLD: 26.6607	Batchsize: 256
-	Epoch: 5	Loss: 0.049072	SSE: 30.887536	KLD: 26.1797	Batchsize: 256
-	Epoch: 6	Loss: 0.047727	SSE: 30.056640	KLD: 25.3132	Batchsize: 256
-	Epoch: 7	Loss: 0.048046	SSE: 30.148689	KLD: 26.4944	Batchsize: 256
-	Epoch: 8	Loss: 0.047103	SSE: 29.572572	KLD: 25.8333	Batchsize: 256
-	Epoch: 9	Loss: 0.046713	SSE: 29.300084	KLD: 25.8744	Batchsize: 256
-	Epoch: 10	Loss: 0.046825	SSE: 29.340021	KLD: 26.2204	Batchsize: 256
-	Epoch: 11	Loss: 0.045316	SSE: 28.368042	KLD: 25.6181	Batchsize: 256
-	Epoch: 12	Loss: 0.044447	SSE: 27.523550	KLD: 27.9321	Batchsize: 256
-	Epoch: 13	Loss: 0.043376	SSE: 26.878048	KLD: 27.0950	Batchsize: 256
-	Epoch: 14	Loss: 0.043469	SSE: 26.900901	KLD: 27.4771	Batchsize: 256
-	Epoch: 15	Loss: 0.042791	SSE: 26.452586	KLD: 27.3122	Batchsize: 256
-	Epoch: 16	Loss: 0.042719	SSE: 26.455996	KLD: 26.8246	Batchsize: 256
-	Epoch: 17	Loss: 0.042351	SSE: 26.135475	KLD: 27.4537	Batchsize: 256
-	Epoch: 18	Loss: 0.042272	SSE: 26.140016	KLD: 26.9048	Batchsize: 256
-	Epoch: 19	Loss: 0.042353	SSE: 26.126143	KLD: 27.5504	Batchsize: 256
-	Epoch: 20	Loss: 0.041756	SSE: 25.783380	KLD: 26.9244	Batchsize: 256
-	Epoch: 21	Loss: 0.041624	SSE: 25.620807	KLD: 27.5998	Batchsize: 256
-	Epoch: 22	Loss: 0.040920	SSE: 25.057011	KLD: 28.3461	Batchsize: 256
-	Epoch: 23	Loss: 0.040370	SSE: 24.672096	KLD: 28.4153	Batchsize: 256
-	Epoch: 24	Loss: 0.040042	SSE: 24.430332	KLD: 28.5708	Batchsize: 256
-	Epoch: 25	Loss: 0.039877	SSE: 24.318775	KLD: 28.5518	Batchsize: 256
-	Epoch: 26	Loss: 0.039752	SSE: 24.264484	KLD: 28.2593	Batchsize: 256
-	Epoch: 27	Loss: 0.039459	SSE: 24.078539	KLD: 28.1149	Batchsize: 256
-	Epoch: 28	Loss: 0.039846	SSE: 24.294459	KLD: 28.5821	Batchsize: 256
-	Epoch: 29	Loss: 0.039934	SSE: 24.316458	KLD: 28.9406	Batchsize: 256
-	Epoch: 30	Loss: 0.039621	SSE: 24.101035	KLD: 28.9462	Batchsize: 256
-	Epoch: 31	Loss: 0.039341	SSE: 23.955636	KLD: 28.5097	Batchsize: 256
-	Epoch: 32	Loss: 0.039163	SSE: 23.860344	KLD: 28.2552	Batchsize: 256
-	Epoch: 33	Loss: 0.039620	SSE: 24.139453	KLD: 28.5819	Batchsize: 256
-	Epoch: 34	Loss: 0.039201	SSE: 23.843312	KLD: 28.6560	Batchsize: 256
-	Epoch: 35	Loss: 0.038942	SSE: 23.706108	KLD: 28.2760	Batchsize: 256
-	Epoch: 36	Loss: 0.038881	SSE: 23.649427	KLD: 28.4166	Batchsize: 256
-	Epoch: 37	Loss: 0.038442	SSE: 23.307280	KLD: 28.7953	Batchsize: 256
-	Epoch: 38	Loss: 0.038516	SSE: 23.262968	KLD: 29.6849	Batchsize: 256
-	Epoch: 39	Loss: 0.038256	SSE: 23.093179	KLD: 29.6037	Batchsize: 256
-	Epoch: 40	Loss: 0.037905	SSE: 22.828250	KLD: 29.8239	Batchsize: 256
-	Epoch: 41	Loss: 0.037565	SSE: 22.618369	KLD: 29.6045	Batchsize: 256
-	Epoch: 42	Loss: 0.037377	SSE: 22.521425	KLD: 29.3065	Batchsize: 256
-	Epoch: 43	Loss: 0.037492	SSE: 22.534215	KLD: 29.9185	Batchsize: 256
-	Epoch: 44	Loss: 0.037793	SSE: 22.690408	KLD: 30.3923	Batchsize: 256
-	Epoch: 45	Loss: 0.037201	SSE: 22.390733	KLD: 29.3938	Batchsize: 256
-	Epoch: 46	Loss: 0.037451	SSE: 22.534081	KLD: 29.6586	Batchsize: 256
-	Epoch: 47	Loss: 0.037076	SSE: 22.279144	KLD: 29.6352	Batchsize: 256
-	Epoch: 48	Loss: 0.036910	SSE: 22.144436	KLD: 29.8319	Batchsize: 256
-	Epoch: 49	Loss: 0.036906	SSE: 22.142371	KLD: 29.8234	Batchsize: 256
-	Epoch: 50	Loss: 0.036670	SSE: 21.933847	KLD: 30.2569	Batchsize: 256
-	Epoch: 51	Loss: 0.036583	SSE: 21.852411	KLD: 30.4574	Batchsize: 256
-	Epoch: 52	Loss: 0.036308	SSE: 21.649163	KLD: 30.5936	Batchsize: 256
-	Epoch: 53	Loss: 0.036197	SSE: 21.576990	KLD: 30.5525	Batchsize: 256
-	Epoch: 54	Loss: 0.036124	SSE: 21.523399	KLD: 30.5865	Batchsize: 256
-	Epoch: 55	Loss: 0.035918	SSE: 21.364117	KLD: 30.7561	Batchsize: 256
-	Epoch: 56	Loss: 0.036161	SSE: 21.496409	KLD: 31.0757	Batchsize: 256
-	Epoch: 57	Loss: 0.036096	SSE: 21.482388	KLD: 30.7919	Batchsize: 256
-	Epoch: 58	Loss: 0.035713	SSE: 21.262423	KLD: 30.3913	Batchsize: 256
-	Epoch: 59	Loss: 0.035816	SSE: 21.301825	KLD: 30.6835	Batchsize: 256
-	Epoch: 60	Loss: 0.035629	SSE: 21.178617	KLD: 30.6336	Batchsize: 256
-	Epoch: 61	Loss: 0.035511	SSE: 21.126055	KLD: 30.3696	Batchsize: 256
-	Epoch: 62	Loss: 0.035677	SSE: 21.195162	KLD: 30.7829	Batchsize: 256
-	Epoch: 63	Loss: 0.035528	SSE: 21.096077	KLD: 30.7530	Batchsize: 256
-	Epoch: 64	Loss: 0.035413	SSE: 21.038547	KLD: 30.5585	Batchsize: 256
-	Epoch: 65	Loss: 0.035407	SSE: 21.037211	KLD: 30.5274	Batchsize: 256
-	Epoch: 66	Loss: 0.035677	SSE: 21.222013	KLD: 30.5372	Batchsize: 256
-	Epoch: 67	Loss: 0.035356	SSE: 20.976471	KLD: 30.7710	Batchsize: 256
-	Epoch: 68	Loss: 0.035287	SSE: 20.960491	KLD: 30.4745	Batchsize: 256
-	Epoch: 69	Loss: 0.035316	SSE: 20.973704	KLD: 30.5386	Batchsize: 256
-	Epoch: 70	Loss: 0.035390	SSE: 20.964708	KLD: 31.0944	Batchsize: 256
-	Epoch: 71	Loss: 0.035250	SSE: 20.928730	KLD: 30.5386	Batchsize: 256
-	Epoch: 72	Loss: 0.035542	SSE: 21.117497	KLD: 30.6480	Batchsize: 256
-	Epoch: 73	Loss: 0.035339	SSE: 20.914963	KLD: 31.2336	Batchsize: 256
-	Epoch: 74	Loss: 0.035239	SSE: 20.874170	KLD: 30.9713	Batchsize: 256
-	Epoch: 75	Loss: 0.035121	SSE: 20.842569	KLD: 30.5131	Batchsize: 256
-	Epoch: 76	Loss: 0.035212	SSE: 20.846418	KLD: 31.0582	Batchsize: 256
-	Epoch: 77	Loss: 0.034876	SSE: 20.700630	KLD: 30.2653	Batchsize: 256
-	Epoch: 78	Loss: 0.035129	SSE: 20.813151	KLD: 30.8392	Batchsize: 256
-	Epoch: 79	Loss: 0.035055	SSE: 20.803631	KLD: 30.4556	Batchsize: 256
-	Epoch: 80	Loss: 0.034933	SSE: 20.698135	KLD: 30.6550	Batchsize: 256
-	Epoch: 81	Loss: 0.034884	SSE: 20.685965	KLD: 30.4579	Batchsize: 256
-	Epoch: 82	Loss: 0.034821	SSE: 20.625454	KLD: 30.6191	Batchsize: 256
-	Epoch: 83	Loss: 0.034865	SSE: 20.670401	KLD: 30.4785	Batchsize: 256
-	Epoch: 84	Loss: 0.034845	SSE: 20.648637	KLD: 30.5568	Batchsize: 256
-	Epoch: 85	Loss: 0.034834	SSE: 20.636944	KLD: 30.5923	Batchsize: 256
-	Epoch: 86	Loss: 0.034782	SSE: 20.578730	KLD: 30.8060	Batchsize: 256
-	Epoch: 87	Loss: 0.034840	SSE: 20.630655	KLD: 30.6878	Batchsize: 256
-	Epoch: 88	Loss: 0.034688	SSE: 20.526311	KLD: 30.6890	Batchsize: 256
-	Epoch: 89	Loss: 0.034951	SSE: 20.654391	KLD: 31.1792	Batchsize: 256
-	Epoch: 90	Loss: 0.034702	SSE: 20.515739	KLD: 30.8763	Batchsize: 256
-	Epoch: 91	Loss: 0.035184	SSE: 20.817562	KLD: 31.1489	Batchsize: 256
-	Epoch: 92	Loss: 0.034663	SSE: 20.492575	KLD: 30.8454	Batchsize: 256
-	Epoch: 93	Loss: 0.034477	SSE: 20.370621	KLD: 30.7928	Batchsize: 256
-	Epoch: 94	Loss: 0.034650	SSE: 20.457940	KLD: 31.0833	Batchsize: 256
-	Epoch: 95	Loss: 0.034545	SSE: 20.381493	KLD: 31.1222	Batchsize: 256
-	Epoch: 96	Loss: 0.034730	SSE: 20.468452	KLD: 31.4983	Batchsize: 256
-	Epoch: 97	Loss: 0.034627	SSE: 20.416527	KLD: 31.3225	Batchsize: 256
-	Epoch: 98	Loss: 0.034352	SSE: 20.226603	KLD: 31.3341	Batchsize: 256
-	Epoch: 99	Loss: 0.034311	SSE: 20.221448	KLD: 31.1171	Batchsize: 256
-	Epoch: 100	Loss: 0.034303	SSE: 20.189268	KLD: 31.3687	Batchsize: 256
-	Epoch: 101	Loss: 0.034315	SSE: 20.179543	KLD: 31.5366	Batchsize: 256
-	Epoch: 102	Loss: 0.034287	SSE: 20.169322	KLD: 31.4480	Batchsize: 256
-	Epoch: 103	Loss: 0.034262	SSE: 20.140587	KLD: 31.5594	Batchsize: 256
-	Epoch: 104	Loss: 0.034333	SSE: 20.196321	KLD: 31.4960	Batchsize: 256
-	Epoch: 105	Loss: 0.034269	SSE: 20.142921	KLD: 31.5823	Batchsize: 256
-	Epoch: 106	Loss: 0.034166	SSE: 20.053250	KLD: 31.7603	Batchsize: 256
-	Epoch: 107	Loss: 0.034034	SSE: 19.986963	KLD: 31.5331	Batchsize: 256
-	Epoch: 108	Loss: 0.034126	SSE: 20.080080	KLD: 31.2501	Batchsize: 256
-	Epoch: 109	Loss: 0.034097	SSE: 20.008929	KLD: 31.7302	Batchsize: 256
-	Epoch: 110	Loss: 0.033942	SSE: 19.905228	KLD: 31.7047	Batchsize: 256
-	Epoch: 111	Loss: 0.033900	SSE: 19.871564	KLD: 31.7509	Batchsize: 256
-	Epoch: 112	Loss: 0.033737	SSE: 19.780519	KLD: 31.5538	Batchsize: 256
-	Epoch: 113	Loss: 0.033844	SSE: 19.831022	KLD: 31.7697	Batchsize: 256
-	Epoch: 114	Loss: 0.033829	SSE: 19.791403	KLD: 32.0448	Batchsize: 256
-	Epoch: 115	Loss: 0.033692	SSE: 19.700696	KLD: 32.0098	Batchsize: 256
-	Epoch: 116	Loss: 0.033698	SSE: 19.721747	KLD: 31.8505	Batchsize: 256
-	Epoch: 117	Loss: 0.033687	SSE: 19.672595	KLD: 32.2378	Batchsize: 256
-	Epoch: 118	Loss: 0.033570	SSE: 19.621272	KLD: 31.9696	Batchsize: 256
-	Epoch: 119	Loss: 0.033595	SSE: 19.639051	KLD: 31.9662	Batchsize: 256
-	Epoch: 120	Loss: 0.033698	SSE: 19.686390	KLD: 32.1831	Batchsize: 256
-	Epoch: 121	Loss: 0.033513	SSE: 19.584668	KLD: 31.9469	Batchsize: 256
-	Epoch: 122	Loss: 0.033555	SSE: 19.575709	KLD: 32.2989	Batchsize: 256
-	Epoch: 123	Loss: 0.033450	SSE: 19.530953	KLD: 32.0410	Batchsize: 256
-	Epoch: 124	Loss: 0.033622	SSE: 19.684122	KLD: 31.7196	Batchsize: 256
-	Epoch: 125	Loss: 0.033458	SSE: 19.565869	KLD: 31.7677	Batchsize: 256
-	Epoch: 126	Loss: 0.033727	SSE: 19.724014	KLD: 32.0159	Batchsize: 256
-	Epoch: 127	Loss: 0.033554	SSE: 19.589456	KLD: 32.1633	Batchsize: 256
-	Epoch: 128	Loss: 0.033401	SSE: 19.489481	KLD: 32.1170	Batchsize: 256
-	Epoch: 129	Loss: 0.033345	SSE: 19.454520	KLD: 32.0846	Batchsize: 256
-	Epoch: 130	Loss: 0.033340	SSE: 19.469684	KLD: 31.9110	Batchsize: 256
-	Epoch: 131	Loss: 0.033458	SSE: 19.522714	KLD: 32.1734	Batchsize: 256
-	Epoch: 132	Loss: 0.033357	SSE: 19.487380	KLD: 31.8554	Batchsize: 256
-	Epoch: 133	Loss: 0.033725	SSE: 19.681234	KLD: 32.4049	Batchsize: 256
-	Epoch: 134	Loss: 0.033323	SSE: 19.424477	KLD: 32.2238	Batchsize: 256
-	Epoch: 135	Loss: 0.033268	SSE: 19.422931	KLD: 31.8890	Batchsize: 256
-	Epoch: 136	Loss: 0.033317	SSE: 19.456029	KLD: 31.8884	Batchsize: 256
-	Epoch: 137	Loss: 0.033174	SSE: 19.353717	KLD: 31.9297	Batchsize: 256
-	Epoch: 138	Loss: 0.033380	SSE: 19.461002	KLD: 32.2509	Batchsize: 256
-	Epoch: 139	Loss: 0.033244	SSE: 19.371231	KLD: 32.2139	Batchsize: 256
-	Epoch: 140	Loss: 0.033292	SSE: 19.405330	KLD: 32.2021	Batchsize: 256
-	Epoch: 141	Loss: 0.033344	SSE: 19.441116	KLD: 32.2029	Batchsize: 256
-	Epoch: 142	Loss: 0.033165	SSE: 19.331402	KLD: 32.0778	Batchsize: 256
-	Epoch: 143	Loss: 0.033125	SSE: 19.323231	KLD: 31.8986	Batchsize: 256
-	Epoch: 144	Loss: 0.033345	SSE: 19.459563	KLD: 32.0378	Batchsize: 256
-	Epoch: 145	Loss: 0.033288	SSE: 19.386213	KLD: 32.3554	Batchsize: 256
-	Epoch: 146	Loss: 0.033119	SSE: 19.300198	KLD: 32.0794	Batchsize: 256
-	Epoch: 147	Loss: 0.033085	SSE: 19.305319	KLD: 31.8125	Batchsize: 256
-	Epoch: 148	Loss: 0.033062	SSE: 19.268420	KLD: 32.0045	Batchsize: 256
-	Epoch: 149	Loss: 0.033139	SSE: 19.308167	KLD: 32.1281	Batchsize: 256
-	Epoch: 150	Loss: 0.033071	SSE: 19.276065	KLD: 31.9968	Batchsize: 256
-	Epoch: 151	Loss: 0.033212	SSE: 19.326794	KLD: 32.4262	Batchsize: 256
-	Epoch: 152	Loss: 0.033250	SSE: 19.385114	KLD: 32.1203	Batchsize: 256
-	Epoch: 153	Loss: 0.033195	SSE: 19.359293	KLD: 32.0133	Batchsize: 256
-	Epoch: 154	Loss: 0.033061	SSE: 19.229638	KLD: 32.3643	Batchsize: 256
-	Epoch: 155	Loss: 0.033232	SSE: 19.340392	KLD: 32.4273	Batchsize: 256
-	Epoch: 156	Loss: 0.033109	SSE: 19.305518	KLD: 31.9615	Batchsize: 256
-	Epoch: 157	Loss: 0.033254	SSE: 19.404963	KLD: 31.9666	Batchsize: 256
-	Epoch: 158	Loss: 0.033143	SSE: 19.308747	KLD: 32.1517	Batchsize: 256
-	Epoch: 159	Loss: 0.032956	SSE: 19.190333	KLD: 32.0578	Batchsize: 256
-	Epoch: 160	Loss: 0.033079	SSE: 19.257543	KLD: 32.2180	Batchsize: 256
-	Epoch: 161	Loss: 0.033056	SSE: 19.229822	KLD: 32.3306	Batchsize: 256
-	Epoch: 162	Loss: 0.033006	SSE: 19.226343	KLD: 32.0434	Batchsize: 256
-	Epoch: 163	Loss: 0.032927	SSE: 19.167215	KLD: 32.0877	Batchsize: 256
-	Epoch: 164	Loss: 0.032972	SSE: 19.195036	KLD: 32.1128	Batchsize: 256
-	Epoch: 165	Loss: 0.033069	SSE: 19.253484	KLD: 32.1891	Batchsize: 256
-	Epoch: 166	Loss: 0.032993	SSE: 19.228490	KLD: 31.9409	Batchsize: 256
-	Epoch: 167	Loss: 0.033296	SSE: 19.417766	KLD: 32.1142	Batchsize: 256
-	Epoch: 168	Loss: 0.033032	SSE: 19.254764	KLD: 31.9438	Batchsize: 256
-	Epoch: 169	Loss: 0.032885	SSE: 19.132889	KLD: 32.1395	Batchsize: 256
-	Epoch: 170	Loss: 0.032858	SSE: 19.115787	KLD: 32.1223	Batchsize: 256
-	Epoch: 171	Loss: 0.032914	SSE: 19.127224	KLD: 32.3769	Batchsize: 256
-	Epoch: 172	Loss: 0.032768	SSE: 19.061859	KLD: 32.0483	Batchsize: 256
-	Epoch: 173	Loss: 0.032902	SSE: 19.143428	KLD: 32.1476	Batchsize: 256
-	Epoch: 174	Loss: 0.032863	SSE: 19.108901	KLD: 32.2183	Batchsize: 256
-	Epoch: 175	Loss: 0.032993	SSE: 19.216965	KLD: 32.0476	Batchsize: 256
-	Epoch: 176	Loss: 0.032987	SSE: 19.212750	KLD: 32.0487	Batchsize: 256
-	Epoch: 177	Loss: 0.032891	SSE: 19.130672	KLD: 32.1981	Batchsize: 256
-	Epoch: 178	Loss: 0.032789	SSE: 19.099334	KLD: 31.8377	Batchsize: 256
-	Epoch: 179	Loss: 0.032725	SSE: 19.000453	KLD: 32.3487	Batchsize: 256
-	Epoch: 180	Loss: 0.032788	SSE: 19.076901	KLD: 32.0365	Batchsize: 256
-	Epoch: 181	Loss: 0.033367	SSE: 19.430885	KLD: 32.4436	Batchsize: 256
-	Epoch: 182	Loss: 0.032892	SSE: 19.115593	KLD: 32.3448	Batchsize: 256
-	Epoch: 183	Loss: 0.032834	SSE: 19.030621	KLD: 32.7633	Batchsize: 256
-	Epoch: 184	Loss: 0.032648	SSE: 18.952934	KLD: 32.2955	Batchsize: 256
-	Epoch: 185	Loss: 0.032540	SSE: 18.862538	KLD: 32.4481	Batchsize: 256
-	Epoch: 186	Loss: 0.032503	SSE: 18.810245	KLD: 32.6983	Batchsize: 256
-	Epoch: 187	Loss: 0.032492	SSE: 18.809884	KLD: 32.6325	Batchsize: 256
-	Epoch: 188	Loss: 0.032554	SSE: 18.851801	KLD: 32.6407	Batchsize: 256
-	Epoch: 189	Loss: 0.032545	SSE: 18.820470	KLD: 32.8731	Batchsize: 256
-	Epoch: 190	Loss: 0.032423	SSE: 18.760774	KLD: 32.6485	Batchsize: 256
-	Epoch: 191	Loss: 0.032404	SSE: 18.737626	KLD: 32.7447	Batchsize: 256
+	Epoch: 1	Loss: 0.057515	SSE: 36.832556	KLD: 24.7997	Batchsize: 256
+	Epoch: 2	Loss: 0.042801	SSE: 26.017642	KLD: 31.4307	Batchsize: 256
+	Epoch: 3	Loss: 0.039115	SSE: 23.278335	KLD: 33.3744	Batchsize: 256
+	Epoch: 4	Loss: 0.037520	SSE: 22.069114	KLD: 34.4366	Batchsize: 256
+	Epoch: 5	Loss: 0.036113	SSE: 20.981253	KLD: 35.5678	Batchsize: 256
+	Epoch: 6	Loss: 0.035475	SSE: 20.467826	KLD: 36.2690	Batchsize: 256
+	Epoch: 7	Loss: 0.034579	SSE: 19.836064	KLD: 36.4264	Batchsize: 256
+	Epoch: 8	Loss: 0.034219	SSE: 19.475738	KLD: 37.4775	Batchsize: 256
+	Epoch: 9	Loss: 0.033850	SSE: 19.228345	KLD: 37.4247	Batchsize: 256
+	Epoch: 10	Loss: 0.033616	SSE: 19.016556	KLD: 37.8977	Batchsize: 256
+	Epoch: 11	Loss: 0.033296	SSE: 18.817818	KLD: 37.7068	Batchsize: 256
+	Epoch: 12	Loss: 0.032975	SSE: 18.546595	KLD: 38.1799	Batchsize: 256
+	Epoch: 13	Loss: 0.032548	SSE: 18.298407	KLD: 37.7572	Batchsize: 256
+	Epoch: 14	Loss: 0.032368	SSE: 18.109055	KLD: 38.3711	Batchsize: 256
+	Epoch: 15	Loss: 0.032173	SSE: 17.983442	KLD: 38.2963	Batchsize: 256
+	Epoch: 16	Loss: 0.032420	SSE: 18.104810	KLD: 38.7457	Batchsize: 256
+	Epoch: 17	Loss: 0.032150	SSE: 17.831884	KLD: 39.5626	Batchsize: 256
+	Epoch: 18	Loss: 0.031815	SSE: 17.678310	KLD: 38.8450	Batchsize: 256
+	Epoch: 19	Loss: 0.031638	SSE: 17.553313	KLD: 38.8815	Batchsize: 256
+	Epoch: 20	Loss: 0.031274	SSE: 17.308312	KLD: 38.8333	Batchsize: 256
+	Epoch: 21	Loss: 0.031078	SSE: 17.161398	KLD: 38.9459	Batchsize: 256
+	Epoch: 22	Loss: 0.030919	SSE: 17.094278	KLD: 38.5584	Batchsize: 256
+	Epoch: 23	Loss: 0.030861	SSE: 17.023936	KLD: 38.8390	Batchsize: 256
+	Epoch: 24	Loss: 0.030822	SSE: 16.986938	KLD: 38.9386	Batchsize: 256
+	Epoch: 25	Loss: 0.030814	SSE: 16.966770	KLD: 39.0756	Batchsize: 256
+	Epoch: 26	Loss: 0.030663	SSE: 16.839568	KLD: 39.2950	Batchsize: 256
+	Epoch: 27	Loss: 0.030435	SSE: 16.683123	KLD: 39.2927	Batchsize: 256
+	Epoch: 28	Loss: 0.030316	SSE: 16.576760	KLD: 39.5183	Batchsize: 256
+	Epoch: 29	Loss: 0.030063	SSE: 16.440597	KLD: 39.1725	Batchsize: 256
+	Epoch: 30	Loss: 0.029936	SSE: 16.346088	KLD: 39.2386	Batchsize: 256
+	Epoch: 31	Loss: 0.029887	SSE: 16.272010	KLD: 39.6169	Batchsize: 256
+	Epoch: 32	Loss: 0.029808	SSE: 16.174388	KLD: 40.0218	Batchsize: 256
+	Epoch: 33	Loss: 0.030140	SSE: 16.345254	KLD: 40.5504	Batchsize: 256
+	Epoch: 34	Loss: 0.029551	SSE: 15.979562	KLD: 40.1899	Batchsize: 256
+	Epoch: 35	Loss: 0.029368	SSE: 15.831914	KLD: 40.3947	Batchsize: 256
+	Epoch: 36	Loss: 0.029415	SSE: 15.795238	KLD: 41.0399	Batchsize: 256
+	Epoch: 37	Loss: 0.029193	SSE: 15.695803	KLD: 40.5438	Batchsize: 256
+	Epoch: 38	Loss: 0.029081	SSE: 15.577855	KLD: 40.9242	Batchsize: 256
+	Epoch: 39	Loss: 0.029126	SSE: 15.580345	KLD: 41.1897	Batchsize: 256
+	Epoch: 40	Loss: 0.028979	SSE: 15.465316	KLD: 41.3247	Batchsize: 256
+	Epoch: 41	Loss: 0.028839	SSE: 15.392184	KLD: 41.1099	Batchsize: 256
+	Epoch: 42	Loss: 0.028830	SSE: 15.355490	KLD: 41.3907	Batchsize: 256
+	Epoch: 43	Loss: 0.028687	SSE: 15.263086	KLD: 41.3415	Batchsize: 256
+	Epoch: 44	Loss: 0.028732	SSE: 15.249222	KLD: 41.7540	Batchsize: 256
+	Epoch: 45	Loss: 0.028599	SSE: 15.144062	KLD: 41.8847	Batchsize: 256
+	Epoch: 46	Loss: 0.028781	SSE: 15.279943	KLD: 41.7849	Batchsize: 256
+	Epoch: 47	Loss: 0.028491	SSE: 15.067847	KLD: 41.9061	Batchsize: 256
+	Epoch: 48	Loss: 0.028454	SSE: 15.030014	KLD: 42.0204	Batchsize: 256
+	Epoch: 49	Loss: 0.028233	SSE: 14.894047	KLD: 41.8702	Batchsize: 256
+	Epoch: 50	Loss: 0.028400	SSE: 14.972673	KLD: 42.2084	Batchsize: 256
+	Epoch: 51	Loss: 0.028403	SSE: 14.992352	KLD: 42.0478	Batchsize: 256
+	Epoch: 52	Loss: 0.028346	SSE: 14.933214	KLD: 42.2337	Batchsize: 256
+	Epoch: 53	Loss: 0.028246	SSE: 14.850547	KLD: 42.3637	Batchsize: 256
+	Epoch: 54	Loss: 0.028305	SSE: 14.861221	KLD: 42.6401	Batchsize: 256
+	Epoch: 55	Loss: 0.028201	SSE: 14.791348	KLD: 42.6235	Batchsize: 256
+	Epoch: 56	Loss: 0.028113	SSE: 14.755545	KLD: 42.3948	Batchsize: 256
+	Epoch: 57	Loss: 0.027951	SSE: 14.648196	KLD: 42.3567	Batchsize: 256
+	Epoch: 58	Loss: 0.028082	SSE: 14.687573	KLD: 42.8298	Batchsize: 256
+	Epoch: 59	Loss: 0.027910	SSE: 14.565573	KLD: 42.8662	Batchsize: 256
+	Epoch: 60	Loss: 0.027800	SSE: 14.524185	KLD: 42.5515	Batchsize: 256
+	Epoch: 61	Loss: 0.027747	SSE: 14.480889	KLD: 42.6102	Batchsize: 256
+	Epoch: 62	Loss: 0.027750	SSE: 14.461327	KLD: 42.8150	Batchsize: 256
+	Epoch: 63	Loss: 0.027664	SSE: 14.395014	KLD: 42.8838	Batchsize: 256
+	Epoch: 64	Loss: 0.027877	SSE: 14.497595	KLD: 43.2885	Batchsize: 256
+	Epoch: 65	Loss: 0.027691	SSE: 14.361688	KLD: 43.3638	Batchsize: 256
+	Epoch: 66	Loss: 0.027536	SSE: 14.228312	KLD: 43.6161	Batchsize: 256
+	Epoch: 67	Loss: 0.027544	SSE: 14.223642	KLD: 43.7086	Batchsize: 256
+	Epoch: 68	Loss: 0.027412	SSE: 14.133179	KLD: 43.7121	Batchsize: 256
+	Epoch: 69	Loss: 0.027605	SSE: 14.210567	KLD: 44.2222	Batchsize: 256
+	Epoch: 70	Loss: 0.027382	SSE: 14.136968	KLD: 43.4797	Batchsize: 256
+	Epoch: 71	Loss: 0.027436	SSE: 14.126192	KLD: 43.9279	Batchsize: 256
+	Epoch: 72	Loss: 0.027547	SSE: 14.209965	KLD: 43.8577	Batchsize: 256
+	Epoch: 73	Loss: 0.027336	SSE: 14.058896	KLD: 43.9189	Batchsize: 256
+	Epoch: 74	Loss: 0.027354	SSE: 14.068890	KLD: 43.9399	Batchsize: 256
+	Epoch: 75	Loss: 0.027255	SSE: 14.027883	KLD: 43.6855	Batchsize: 256
+	Epoch: 76	Loss: 0.027373	SSE: 14.047265	KLD: 44.2637	Batchsize: 256
+	Epoch: 77	Loss: 0.027369	SSE: 14.073808	KLD: 43.9888	Batchsize: 256
+	Epoch: 78	Loss: 0.027315	SSE: 14.024892	KLD: 44.0987	Batchsize: 256
+	Epoch: 79	Loss: 0.027130	SSE: 13.916971	KLD: 43.9210	Batchsize: 256
+	Epoch: 80	Loss: 0.027201	SSE: 13.912079	KLD: 44.4230	Batchsize: 256
+	Epoch: 81	Loss: 0.027346	SSE: 13.996592	KLD: 44.5580	Batchsize: 256
+	Epoch: 82	Loss: 0.026991	SSE: 13.783948	KLD: 44.2738	Batchsize: 256
+	Epoch: 83	Loss: 0.027010	SSE: 13.795841	KLD: 44.2842	Batchsize: 256
+	Epoch: 84	Loss: 0.026982	SSE: 13.779938	KLD: 44.2473	Batchsize: 256
+	Epoch: 85	Loss: 0.027176	SSE: 13.855268	KLD: 44.7888	Batchsize: 256
+	Epoch: 86	Loss: 0.026963	SSE: 13.700337	KLD: 44.8714	Batchsize: 256
+	Epoch: 87	Loss: 0.026933	SSE: 13.695014	KLD: 44.7285	Batchsize: 256
+	Epoch: 88	Loss: 0.026874	SSE: 13.683819	KLD: 44.4529	Batchsize: 256
+	Epoch: 89	Loss: 0.026898	SSE: 13.653442	KLD: 44.8940	Batchsize: 256
+	Epoch: 90	Loss: 0.026948	SSE: 13.690580	KLD: 44.8682	Batchsize: 256
+	Epoch: 91	Loss: 0.026832	SSE: 13.596567	KLD: 45.0006	Batchsize: 256
+	Epoch: 92	Loss: 0.026736	SSE: 13.578927	KLD: 44.5497	Batchsize: 256
+	Epoch: 93	Loss: 0.026936	SSE: 13.696888	KLD: 44.7305	Batchsize: 256
+	Epoch: 94	Loss: 0.026906	SSE: 13.642568	KLD: 45.0414	Batchsize: 256
+	Epoch: 95	Loss: 0.026792	SSE: 13.564701	KLD: 45.0408	Batchsize: 256
+	Epoch: 96	Loss: 0.026724	SSE: 13.555218	KLD: 44.6929	Batchsize: 256
+	Epoch: 97	Loss: 0.026723	SSE: 13.534098	KLD: 44.8821	Batchsize: 256
+	Epoch: 98	Loss: 0.026803	SSE: 13.582806	KLD: 44.9408	Batchsize: 256
+	Epoch: 99	Loss: 0.026613	SSE: 13.457486	KLD: 44.8957	Batchsize: 256
+	Epoch: 100	Loss: 0.026568	SSE: 13.445857	KLD: 44.7149	Batchsize: 256
+	Epoch: 101	Loss: 0.026567	SSE: 13.431635	KLD: 44.8406	Batchsize: 256
+	Epoch: 102	Loss: 0.026708	SSE: 13.487209	KLD: 45.2275	Batchsize: 256
+	Epoch: 103	Loss: 0.026605	SSE: 13.399266	KLD: 45.3848	Batchsize: 256
+	Epoch: 104	Loss: 0.026537	SSE: 13.383949	KLD: 45.0955	Batchsize: 256
+	Epoch: 105	Loss: 0.026450	SSE: 13.321409	KLD: 45.1186	Batchsize: 256
+	Epoch: 106	Loss: 0.026767	SSE: 13.533592	KLD: 45.1699	Batchsize: 256
+	Epoch: 107	Loss: 0.026628	SSE: 13.420729	KLD: 45.3306	Batchsize: 256
+	Epoch: 108	Loss: 0.026732	SSE: 13.465814	KLD: 45.5812	Batchsize: 256
+	Epoch: 109	Loss: 0.026484	SSE: 13.323741	KLD: 45.3178	Batchsize: 256
+	Epoch: 110	Loss: 0.026453	SSE: 13.274196	KLD: 45.5787	Batchsize: 256
+	Epoch: 111	Loss: 0.026395	SSE: 13.264885	KLD: 45.2929	Batchsize: 256
+	Epoch: 112	Loss: 0.026401	SSE: 13.251669	KLD: 45.4536	Batchsize: 256
+	Epoch: 113	Loss: 0.026346	SSE: 13.207347	KLD: 45.5164	Batchsize: 256
+	Epoch: 114	Loss: 0.026402	SSE: 13.237550	KLD: 45.5918	Batchsize: 256
+	Epoch: 115	Loss: 0.026365	SSE: 13.229445	KLD: 45.4297	Batchsize: 256
+	Epoch: 116	Loss: 0.026375	SSE: 13.225535	KLD: 45.5312	Batchsize: 256
+	Epoch: 117	Loss: 0.026597	SSE: 13.333868	KLD: 45.9458	Batchsize: 256
+	Epoch: 118	Loss: 0.026285	SSE: 13.177685	KLD: 45.4016	Batchsize: 256
+	Epoch: 119	Loss: 0.026292	SSE: 13.170078	KLD: 45.5156	Batchsize: 256
+	Epoch: 120	Loss: 0.026445	SSE: 13.248632	KLD: 45.7669	Batchsize: 256
+	Epoch: 121	Loss: 0.026219	SSE: 13.146176	KLD: 45.2720	Batchsize: 256
+	Epoch: 122	Loss: 0.026224	SSE: 13.120434	KLD: 45.5478	Batchsize: 256
+	Epoch: 123	Loss: 0.026258	SSE: 13.134606	KLD: 45.6332	Batchsize: 256
+	Epoch: 124	Loss: 0.026241	SSE: 13.122139	KLD: 45.6403	Batchsize: 256
+	Epoch: 125	Loss: 0.026303	SSE: 13.152783	KLD: 45.7480	Batchsize: 256
+	Epoch: 126	Loss: 0.026207	SSE: 13.103927	KLD: 45.5936	Batchsize: 256
+	Epoch: 127	Loss: 0.026311	SSE: 13.145902	KLD: 45.8677	Batchsize: 256
+	Epoch: 128	Loss: 0.026288	SSE: 13.143882	KLD: 45.7402	Batchsize: 256
+	Epoch: 129	Loss: 0.026073	SSE: 13.052657	KLD: 45.2105	Batchsize: 256
+	Epoch: 130	Loss: 0.026195	SSE: 13.075716	KLD: 45.7782	Batchsize: 256
+	Epoch: 131	Loss: 0.026198	SSE: 13.066591	KLD: 45.8786	Batchsize: 256
+	Epoch: 132	Loss: 0.026426	SSE: 13.232125	KLD: 45.7947	Batchsize: 256
+	Epoch: 133	Loss: 0.026160	SSE: 13.064269	KLD: 45.6582	Batchsize: 256
+	Epoch: 134	Loss: 0.026167	SSE: 13.082464	KLD: 45.5335	Batchsize: 256
+	Epoch: 135	Loss: 0.026144	SSE: 13.064857	KLD: 45.5502	Batchsize: 256
+	Epoch: 136	Loss: 0.026064	SSE: 13.017563	KLD: 45.4820	Batchsize: 256
+	Epoch: 137	Loss: 0.026086	SSE: 13.027955	KLD: 45.5233	Batchsize: 256
+	Epoch: 138	Loss: 0.026024	SSE: 13.017415	KLD: 45.2253	Batchsize: 256
+	Epoch: 139	Loss: 0.026160	SSE: 13.063267	KLD: 45.6667	Batchsize: 256
+	Epoch: 140	Loss: 0.026111	SSE: 13.048750	KLD: 45.4884	Batchsize: 256
+	Epoch: 141	Loss: 0.026006	SSE: 12.960040	KLD: 45.6483	Batchsize: 256
+	Epoch: 142	Loss: 0.026009	SSE: 12.985881	KLD: 45.4210	Batchsize: 256
+	Epoch: 143	Loss: 0.026085	SSE: 13.026283	KLD: 45.5367	Batchsize: 256
+	Epoch: 144	Loss: 0.026028	SSE: 12.981265	KLD: 45.5876	Batchsize: 256
+	Epoch: 145	Loss: 0.025936	SSE: 12.906901	KLD: 45.6910	Batchsize: 256
+	Epoch: 146	Loss: 0.026178	SSE: 13.035205	KLD: 46.0450	Batchsize: 256
+	Epoch: 147	Loss: 0.026000	SSE: 12.958661	KLD: 45.6194	Batchsize: 256
+	Epoch: 148	Loss: 0.026086	SSE: 12.984990	KLD: 45.9228	Batchsize: 256
+	Epoch: 149	Loss: 0.026074	SSE: 12.991443	KLD: 45.7883	Batchsize: 256
+	Epoch: 150	Loss: 0.025970	SSE: 12.934642	KLD: 45.6547	Batchsize: 256
+	Epoch: 151	Loss: 0.025988	SSE: 12.962273	KLD: 45.5083	Batchsize: 256
+	Epoch: 152	Loss: 0.025950	SSE: 12.932336	KLD: 45.5443	Batchsize: 256
+	Epoch: 153	Loss: 0.026013	SSE: 12.974875	KLD: 45.5515	Batchsize: 256
+	Epoch: 154	Loss: 0.025994	SSE: 12.958872	KLD: 45.5776	Batchsize: 256
+	Epoch: 155	Loss: 0.026031	SSE: 12.968037	KLD: 45.7308	Batchsize: 256
+	Epoch: 156	Loss: 0.026126	SSE: 13.008367	KLD: 45.9646	Batchsize: 256
+	Epoch: 157	Loss: 0.026036	SSE: 12.958254	KLD: 45.8549	Batchsize: 256
+	Epoch: 158	Loss: 0.025843	SSE: 12.874996	KLD: 45.3946	Batchsize: 256
+	Epoch: 159	Loss: 0.025923	SSE: 12.892773	KLD: 45.7444	Batchsize: 256
+	Epoch: 160	Loss: 0.025895	SSE: 12.868989	KLD: 45.7832	Batchsize: 256
+	Epoch: 161	Loss: 0.025940	SSE: 12.897606	KLD: 45.8070	Batchsize: 256
+	Epoch: 162	Loss: 0.025983	SSE: 12.948935	KLD: 45.6006	Batchsize: 256
+	Epoch: 163	Loss: 0.025998	SSE: 12.965907	KLD: 45.5417	Batchsize: 256
+	Epoch: 164	Loss: 0.025888	SSE: 12.857669	KLD: 45.8476	Batchsize: 256
+	Epoch: 165	Loss: 0.025941	SSE: 12.894082	KLD: 45.8430	Batchsize: 256
+	Epoch: 166	Loss: 0.025990	SSE: 12.911852	KLD: 45.9928	Batchsize: 256
+	Epoch: 167	Loss: 0.025856	SSE: 12.861986	KLD: 45.5993	Batchsize: 256
+	Epoch: 168	Loss: 0.025832	SSE: 12.826175	KLD: 45.7773	Batchsize: 256
+	Epoch: 169	Loss: 0.025810	SSE: 12.820178	KLD: 45.6965	Batchsize: 256
+	Epoch: 170	Loss: 0.025969	SSE: 12.920154	KLD: 45.7824	Batchsize: 256
+	Epoch: 171	Loss: 0.025890	SSE: 12.895866	KLD: 45.5033	Batchsize: 256
+	Epoch: 172	Loss: 0.025732	SSE: 12.792512	KLD: 45.4523	Batchsize: 256
+	Epoch: 173	Loss: 0.025766	SSE: 12.802591	KLD: 45.5803	Batchsize: 256
+	Epoch: 174	Loss: 0.025896	SSE: 12.851419	KLD: 45.9528	Batchsize: 256
+	Epoch: 175	Loss: 0.025858	SSE: 12.856473	KLD: 45.6649	Batchsize: 256
+	Epoch: 176	Loss: 0.025931	SSE: 12.853868	KLD: 46.1558	Batchsize: 256
+	Epoch: 177	Loss: 0.025770	SSE: 12.813444	KLD: 45.5007	Batchsize: 256
+	Epoch: 178	Loss: 0.025884	SSE: 12.868936	KLD: 45.7169	Batchsize: 256
+	Epoch: 179	Loss: 0.025846	SSE: 12.831520	KLD: 45.8213	Batchsize: 256
+	Epoch: 180	Loss: 0.025782	SSE: 12.802774	KLD: 45.6781	Batchsize: 256
+	Epoch: 181	Loss: 0.025934	SSE: 12.870173	KLD: 46.0243	Batchsize: 256
+	Epoch: 182	Loss: 0.025897	SSE: 12.864437	KLD: 45.8405	Batchsize: 256
+	Epoch: 183	Loss: 0.025743	SSE: 12.779097	KLD: 45.6468	Batchsize: 256
+	Epoch: 184	Loss: 0.025736	SSE: 12.757721	KLD: 45.8059	Batchsize: 256
+	Epoch: 185	Loss: 0.025768	SSE: 12.813003	KLD: 45.4951	Batchsize: 256
+	Epoch: 186	Loss: 0.025867	SSE: 12.819419	KLD: 46.0648	Batchsize: 256
+	Epoch: 187	Loss: 0.025722	SSE: 12.774463	KLD: 45.5597	Batchsize: 256
+	Epoch: 188	Loss: 0.025900	SSE: 12.852227	KLD: 45.9731	Batchsize: 256
+	Epoch: 189	Loss: 0.025939	SSE: 12.880571	KLD: 45.9590	Batchsize: 256
+	Epoch: 190	Loss: 0.025822	SSE: 12.815000	KLD: 45.8173	Batchsize: 256
+	Epoch: 191	Loss: 0.025859	SSE: 12.837440	KLD: 45.8446	Batchsize: 256
+	Epoch: 192	Loss: 0.025732	SSE: 12.766826	KLD: 45.6960	Batchsize: 256
+	Epoch: 193	Loss: 0.025996	SSE: 12.858880	KLD: 46.5236	Batchsize: 256
+	Epoch: 194	Loss: 0.025743	SSE: 12.776508	KLD: 45.6719	Batchsize: 256
+	Epoch: 195	Loss: 0.025599	SSE: 12.704997	KLD: 45.4164	Batchsize: 256
+	Epoch: 196	Loss: 0.025812	SSE: 12.767860	KLD: 46.1970	Batchsize: 256
+	Epoch: 197	Loss: 0.025826	SSE: 12.775945	KLD: 46.2098	Batchsize: 256
+	Epoch: 198	Loss: 0.025704	SSE: 12.759906	KLD: 45.5811	Batchsize: 256
+	Epoch: 199	Loss: 0.025731	SSE: 12.729259	KLD: 46.0388	Batchsize: 256
+	Epoch: 200	Loss: 0.025610	SSE: 12.702681	KLD: 45.5091	Batchsize: 256
+
+	Encoding to latent representation
+	Trained transformer and encoded in 2480.57 seconds
+
+Clustering
+	Windowsize: 200
+	Min successful thresholds detected: 20
+	Max clusters: None
+	Min cluster size: 1
+	Use CUDA for clustering: True
+	Separator: "C"
+
+	Clustered 57762 contigs in 49155 bins
+	Clustered contigs in 116.7 seconds
+
+Completed Vamb in 2641.24 seconds
+	Recall
+Prec.	0.3	0.4	0.5	0.6	0.7	0.8	0.9	0.95	0.99
+0.3	125	122	121	119	116	113	101	92	72
+0.4	106	104	104	102	99	96	84	75	57
+0.5	94	92	92	90	87	84	75	67	50
+0.6	86	84	84	82	79	76	66	58	44
+0.7	86	84	84	82	79	76	66	58	44
+0.8	83	81	81	79	76	73	64	57	43
+0.9	80	78	78	76	73	71	63	56	42
+0.95	79	77	77	75	72	70	62	55	42
+0.99	76	74	74	72	69	67	59	53	41
+_score 0 = 62
+	Recall
+Prec.	0.3	0.4	0.5	0.6	0.7	0.8	0.9	0.95	0.99
+0.3	80	78	78	76	74	72	66	62	50
+0.4	75	73	73	71	69	67	61	57	45
+0.5	72	70	70	68	66	65	59	55	44
+0.6	70	68	68	66	64	63	57	53	42
+0.7	70	68	68	66	64	63	57	53	42
+0.8	70	68	68	66	64	62	56	52	41
+0.9	67	65	65	63	61	60	55	51	40
+0.95	67	65	65	63	61	60	55	51	40
+0.99	66	64	64	62	60	59	54	50	39
+_score 1 = 55
+	Recall
+Prec.	0.3	0.4	0.5	0.6	0.7	0.8	0.9	0.95	0.99
+0.3	39	39	39	38	36	35	31	29	27
+0.4	37	37	37	36	34	33	29	27	25
+0.5	37	37	37	36	34	33	29	27	25
+0.6	35	35	35	34	32	31	27	25	23
+0.7	35	35	35	34	32	31	27	25	23
+0.8	35	35	35	34	32	31	27	25	23
+0.9	34	34	34	33	31	30	27	25	23
+0.95	34	34	34	33	31	30	27	25	23
+0.99	34	34	34	33	31	30	27	25	23
+_score 2 = 27
+score=  144
